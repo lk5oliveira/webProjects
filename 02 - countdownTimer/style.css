@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    width: 100vw;
+    height: auto;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image:url("bg.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -1000px;
+    color: #EFE7BC;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    background-color: #FFA384;
+    color: #E7F2F8;
+    margin-top: 3rem;
+    padding: 0px 20px 0px 20px;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: normal;
+    margin-top: -4rem;
+}
+
+.countdown-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    text-shadow: 2px 3px 7px rgba(0,0,0,0.49);
+    margin-top: 20px;
+}
+
+.big-text {
+    font-size: 3rem;
+    line-height: 1;
+    margin: 0 2rem;
+    font-weight: bold;
+}
+
+.countdown-container span {
+    font-size: 1.5rem;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+    width: 100%;
+    height: 30vh;
+}
+
+.img p {
+    border: 1px solid;
+    border-color: #E7F2F8;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    color: #E7F2F8;
+    transition-duration:  0.5s;
+    width: 300px;
+}
+
+.img p:hover {
+    background-color: #FFA384;
+    content: url("sab.gif");
+    max-width: 100%;
+}
